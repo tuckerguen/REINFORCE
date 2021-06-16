@@ -1,0 +1,22 @@
+EXPERIMENT PARAMETERS
++----------------------+--------------+
+| Param                | Value        |
+|----------------------+--------------|
+| env                  | CartPole-v1  |
+| hidden               | (64, 64, 64) |
+| seed                 | 0            |
+| steps per epoch      | 4000         |
+| epochs               | 50           |
+| policy learning rate | 0.003        |
+| gamma                | 0.99         |
+| max episode length   | 1000         |
++----------------------+--------------+
+
+EXPERIMENT RESULTS
++--------------------+---------+
+| metric             |   value |
+|--------------------+---------|
+| avg return         |  120.12 |
+| avg episode length |  120.12 |
+| time               | 57.9899 |
++--------------------+---------+
